@@ -17,3 +17,16 @@ validar_argumentos() {
         exit 1
     fi
 }
+
+validar_argumentos "$@"
+
+palabra="$1"
+carpeta="$2"
+
+carpeta=$(cd -- "$carpeta" && pwd -P) || exit 1
+
+buscar_archivos() {
+    find "$carpeta" -type f -print0
+}
+
+buscar_archivos | tr '\0' '\n'
