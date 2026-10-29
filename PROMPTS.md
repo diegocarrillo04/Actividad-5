@@ -7,6 +7,10 @@ Rama: feature/validacion-argumentos
 Módulo: Validación de entrada
 
 ### Prompts utilizados
+Ayúdame a crear un un programa con el script de bash que permita realizar una búsqueda de una palabra definida por el usuario y la trayectoria o carpeta a analizar. Los datos de palabra o frase a buscar y trayectoria o carpeta a analizar, serán entregados por el usuario como primer y segundo argumento en donde el primer argumento sea una frase o frase a buscar y el segundo la ruta o carpeta al analizar, también tiene que validar que se hayan recibido exactamente 2 argumentos, si no es así se muestra un mensaje de uso incorrecto y salir, también se debe de validar que la ruta proporcionada exista y sea un directorio válido y debe buscar en la carpeta indicada todos los archivos que contengan la palabra o frase.
+
+También debe de imprimir en la pantalla la ubicación o ruta de cada archivo encontrado y el número de veces (frecuencia) que aparece la palabra en dicho archivo.
+
 Ayudame a crear un repositorio en GitHub
 Como puedo realizar un codigo en donde utilice el script de bash para que realice una busqueda de una palabra definida por el usuario y que se muestre la carpeta en donde se analiza los datos,
 Estos datos son dados por el usuario como argumentos
